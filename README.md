@@ -55,7 +55,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.inheritedWritableProperties;
+})();
 })();
 </script>
 ```
@@ -157,6 +159,7 @@ var pros = inheritedWritableProperties( f, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-writable-properties@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var hasSymbols = hasSymbolSupport();
 var props;
@@ -208,6 +211,7 @@ props = inheritedWritableProperties( obj );
 console.log( props );
 // e.g., => [ 'c', ... ]
 
+})();
 })();
 </script>
 </body>
@@ -300,19 +304,19 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [ecma-262-for-in]: http://www.ecma-international.org/ecma-262/5.1/#sec-12.6.4
 
-[@stdlib/symbol/ctor]: https://github.com/stdlib-js/symbol-ctor/tree/umd
+[@stdlib/symbol/ctor]: https://github.com/stdlib-js/symbol-ctor/tree/umd/tree/umd
 
 <!-- <related-links> -->
 
-[@stdlib/utils/inherited-writable-property-names]: https://github.com/stdlib-js/utils-inherited-writable-property-names/tree/umd
+[@stdlib/utils/inherited-writable-property-names]: https://github.com/stdlib-js/utils-inherited-writable-property-names/tree/umd/tree/umd
 
-[@stdlib/utils/inherited-writable-property-symbols]: https://github.com/stdlib-js/utils-inherited-writable-property-symbols/tree/umd
+[@stdlib/utils/inherited-writable-property-symbols]: https://github.com/stdlib-js/utils-inherited-writable-property-symbols/tree/umd/tree/umd
 
-[@stdlib/utils/writable-properties]: https://github.com/stdlib-js/utils-writable-properties/tree/umd
+[@stdlib/utils/writable-properties]: https://github.com/stdlib-js/utils-writable-properties/tree/umd/tree/umd
 
-[@stdlib/utils/writable-properties-in]: https://github.com/stdlib-js/utils-writable-properties-in/tree/umd
+[@stdlib/utils/writable-properties-in]: https://github.com/stdlib-js/utils-writable-properties-in/tree/umd/tree/umd
 
-[@stdlib/utils/properties]: https://github.com/stdlib-js/utils-properties/tree/umd
+[@stdlib/utils/properties]: https://github.com/stdlib-js/utils-properties/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
