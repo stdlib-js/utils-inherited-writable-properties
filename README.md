@@ -237,6 +237,11 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
+## License
+
+See [LICENSE][stdlib-license].
+
+
 ## Copyright
 
 Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
@@ -280,7 +285,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/utils-inherited-writable-properties/tree/esm
 [branches-url]: https://github.com/stdlib-js/utils-inherited-writable-properties/blob/main/branches.md
 
-[ecma-262-for-in]: http://www.ecma-international.org/ecma-262/5.1/#sec-12.6.4
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-inherited-writable-properties/main/LICENSE
+
+[ecma-262-for-in]: https://262.ecma-international.org/5.1/#sec-12.6.4
 
 [@stdlib/symbol/ctor]: https://github.com/stdlib-js/symbol-ctor
 
