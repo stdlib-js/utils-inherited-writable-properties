@@ -44,7 +44,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import inheritedWritableProperties from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-writable-properties@deno/mod.js';
+import inheritedWritableProperties from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-writable-properties@v0.2.0-deno/mod.js';
 ```
 
 #### inheritedWritableProperties( obj\[, level] )
@@ -138,7 +138,7 @@ var pros = inheritedWritableProperties( f, 1 );
 import hasSymbolSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-symbol-support@deno/mod.js';
 import Symbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-ctor@deno/mod.js';
 import defineProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@deno/mod.js';
-import inheritedWritableProperties from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-writable-properties@deno/mod.js';
+import inheritedWritableProperties from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-writable-properties@v0.2.0-deno/mod.js';
 
 var hasSymbols = hasSymbolSupport();
 var props;
