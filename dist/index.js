@@ -1,23 +1,5 @@
+"use strict";var q=function(s,e){return function(){return e||s((e={exports:{}}).exports,e),e.exports}};var m=q(function(O,h){
+var l=require('@stdlib/constants-float64-max-safe-integer/dist'),P=require('@stdlib/assert-is-positive-integer/dist').isPrimitive,p=require('@stdlib/assert-is-writable-property/dist'),c=require('@stdlib/utils-property-names/dist'),w=require('@stdlib/utils-property-symbols/dist'),f=require('@stdlib/utils-get-prototype-of/dist'),g=require('@stdlib/assert-has-own-property/dist'),y=require('@stdlib/error-tools-fmtprodmsg/dist');function b(s,e){var o,n,i,a,u,v,r,t;if(arguments.length>1){if(!P(e))throw new TypeError(y('1Ur45',e));u=e}else u=l;if(s==null)return[];for(i=f(s),o=[],n={},v=1;i&&v<=u;){for(a=c(i),t=0;t<a.length;t++)r=a[t],g(n,r)===!1&&p(i,r)&&o.push(r),n[r]=!0;for(a=w(i),t=0;t<a.length;t++)r=a[t],g(n,r)===!1&&p(i,r)&&o.push(r),n[r]=!0;i=f(i),v+=1}return o}h.exports=b
+});var d=m();module.exports=d;
 /** @license Apache-2.0 */
-
-'use strict';
-
-/**
-* Return an array of an object's inherited writable property names and symbols.
-*
-* @module @stdlib/utils-inherited-writable-properties
-*
-* @example
-* var inheritedWritableProperties = require( '@stdlib/utils-inherited-writable-properties' );
-*
-* var props = inheritedWritableProperties( [] );
-*/
-
-// MODULES //
-
-var main = require( './main.js' );
-
-
-// EXPORTS //
-
-module.exports = main;
+//# sourceMappingURL=index.js.map
